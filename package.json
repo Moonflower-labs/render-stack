@@ -4,7 +4,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "dev": "binode --import ./mocks -- vite:vite dev",
+    "dev": "binode --import ./mocks/index.js -- vite:vite dev",
     "build": "remix vite:build",
     "start": "remix-serve ./build/server/index.js",
     "format": "prettier --write .",
